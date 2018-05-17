@@ -562,10 +562,12 @@ A video of the result is here:
 
 ##### TODO
 * Write the rock chasing functions. This can be reach asking if you have any point in the rock image, and then setting steering as the mean angle of the image. When points are near enough, stop and launch a pick.
-* A PID for steering and throttle, to add stability to the driving.
+* A control (Maybe PID) for steering and throttle, to add stability to the driving.
 * Improve the steering behavior, because actually there is a high tendency to have 15 steering because using only the left part of the image.
 * Improve stuck function.  
 * Max velocity dependent of the farthest pixel in the navigable area.
  
 
+##### A quick explanation about references
 
+I had not take a detailed track about the references used for the project. Mainly, the tutorial offered on the classroom pages, CV2 documentation, lots of stackoverflow, reading on the slack page and forums, youtubes videos, and some quick reviews of others projects. Important: There is no code that have been copy pasted. 
